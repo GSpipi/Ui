@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/my_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成部门列表" />
+
+    <com.gaoshuai.ui.Utils.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dip"
+        android:hint="搜索"
+        android:singleLine="true"
+        android:textSize="15.0dip" />
+    <TextView
+        android:id="@+id/no_search_result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未搜索到结果"
+        android:visibility="gone"
+        />
+    <ExpandableListView
+        android:id="@+id/my_expand_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

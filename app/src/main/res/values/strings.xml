@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ui</string>
+    <string name="ChangeBackground">背景色的一些变化</string>
+    <string name="BaiduMap">百度地图</string>
+</resources>
